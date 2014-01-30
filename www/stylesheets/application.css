@@ -1,0 +1,34 @@
+* {
+  -webkit-user-select: none;  /* Disable selection/copy of elements when tapping for a long time */
+  -webkit-touch-callout: none; /* Disable touch callouts */
+}
+
+body.pong {padding: 0; margin: 0; overflow: hidden;}
+
+input, textarea, [contenteditable] * {
+  -webkit-user-select: auto;  /* Allow selection for input elements and those with contenteditable attribute */
+}
+
+.content-padded {
+  padding: 10px;
+}
+
+
+.thing {
+    height: 50px;
+    width: 50px;
+    background-color: tomato;
+    perspective: 800;
+    transform-origin: top left;
+    margin: auto;
+}
+
+.container.wrap {
+    margin-top: 50px;
+}
+
+#bouncy_ball {
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
